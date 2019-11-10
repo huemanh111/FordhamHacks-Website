@@ -1,0 +1,34 @@
+#faq {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #0b1014;
+}
+
+.faq-info {
+  padding-right: 20px;
+  text-align: center;
+}
+
+.email {
+  padding-left: 7px;
+  color: #fd6df3;
+}
+
+.question {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.answer {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .faq-info {
+    padding-left: 15px;
+  }
+}

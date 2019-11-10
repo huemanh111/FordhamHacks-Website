@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "Neoneon";
+  src: url("fonts/Neoneon.otf") format("opentype");
+}
+
+body {
+  width: 100vw;
+  margin: 0;
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #f5f5f5;
+  background: #0b1014;
+}
+
+h1 {
+  display: flex;
+  font-family: 'Neoneon', sans-serif;
+  font-size: 2.5rem;
+  color: #6efff0;
+  text-align: center;
+  text-shadow: 0 0 3vw #6efff0;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  display: flex;
+  font-family: 'Neoneon', sans-serif;
+  font-size: 2.4rem;
+  color: #fd6df3;
+  text-align: center;
+  text-shadow: 0 0 3vw #fd6df3;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.3rem;
+  color: #f5f5f5;
+}
+
+h4 {
+  font-family: 'Neoneon', sans-serif;
+  font-size: 1.5rem;
+  color: #f5f5f5;
+}
+
+h4:hover {
+  color: #f1ff81;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.neon-green {
+  animation: neon-green 2s linear infinite;
+  -moz-animation: neon-green 2s linear infinite;
+  -webkit-animation: neon-green 2s linear infinite;
+  -o-animation: neon-green 2s linear infinite;
+}
+
+@keyframes neon-green {
+
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #0dd9cf, 0 0 3vw #0dd9cf, 0 0 6vw #0dd9cf;
+    color: #0dd9cf;
+  }
+
+  50% {
+    text-shadow: 0 0 .5vw #0aa8a0, 0 0 1.5vw #0aa8a0, 0 0 5vw #0aa8a0;
+    color: #0aa8a0;
+  }
+}
+
+.neon-fuschia {
+  animation: neon-fuschia 3s linear infinite;
+  -moz-animation: neon-fuschia 3s linear infinite;
+  -webkit-animation: neon-fuschia 3s linear infinite;
+  -o-animation: neon-fuschia 3s linear infinite;
+}
+
+@keyframes neon-fuschia {
+
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #fd6df3, 0 0 3vw #fd6df3, 0 0 4vw #fd6df3;
+    color: #fd6df3;
+  }
+
+  50% {
+    text-shadow: 0 0 .5vw #db60d3, 0 0 1.5vw #db60d3, 0 0 3vw #db60d3;
+    color: #db60d3;
+  }
+}
+
+.neon-white {
+  animation: neon-white 2s linear infinite;
+  -moz-animation: neon-white 2s linear infinite;
+  -webkit-animation: neon-white 2s linear infinite;
+  -o-animation: neon-white 2s linear infinite;
+}
+
+@keyframes neon-white {
+
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #f5f5f5, 0 0 3vw #f5f5f5, 0 0 6vw #f5f5f5;
+    color: #f5f5f5;
+  }
+
+  50% {
+    text-shadow: 0 0 .5vw #c7c7c7, 0 0 1.5vw #c7c7c7, 0 0 5vw #c7c7c7;
+    color: #c7c7c7;
+  }
+}

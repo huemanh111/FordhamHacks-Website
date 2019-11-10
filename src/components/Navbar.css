@@ -1,0 +1,335 @@
+.navbar {
+  top: 0;
+  z-index: 5;
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  background-color: #0b1014;
+}
+
+#fb {
+  position: relative;
+  bottom: 5px;
+  right: 5px;
+  display: inline-block;
+  width: 1.875rem;
+  height: 1.875rem;
+  filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(149deg) brightness(108%) contrast(101%);
+}
+
+#fb:hover {
+  filter: brightness(0) saturate(100%) invert(93%) sepia(14%) saturate(1293%) hue-rotate(14deg) brightness(104%) contrast(105%);
+}
+
+#twitter {
+  position: relative;
+  bottom: 5px;
+  right: 5px;
+  display: inline-block;
+  width: 1.875rem;
+  height: 1.875rem;
+  filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(149deg) brightness(108%) contrast(101%);
+}
+
+#twitter:hover { filter: brightness(0) saturate(100%) invert(93%) sepia(14%) saturate(1293%) hue-rotate(14deg) brightness(104%) contrast(105%); }
+
+#ig {
+  position: relative;
+  bottom: 5px;
+  right: 5px;
+  display: inline-block;
+  width: 1.875rem;
+  height: 1.875rem;
+  filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(149deg) brightness(108%) contrast(101%);
+}
+
+#ig:hover { filter: brightness(0) saturate(100%) invert(93%) sepia(14%) saturate(1293%) hue-rotate(14deg) brightness(104%) contrast(105%); }
+
+.nav-left {
+  position: fixed;
+}
+
+.nav-left>li, .nav-social>li {
+  display: inline;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.nav-title {
+  position: relative;
+  bottom: 6px;
+  display: inline;
+}
+
+.nav-social {
+  position: fixed;
+  top: 7px;
+  right: 30px;
+  display: flex;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+/* Media Queries */
+@media screen and (max-width: 325px) {
+  ul.nav-social {
+    position: absolute;
+    top: 28px;
+    left: 57px;
+    width: 70%;
+    margin: auto;
+  }
+
+  ul.nav-left {
+    left: -25px;
+  }
+
+  .nav-link { display: none; }
+
+  .nav-link-burger {
+    padding-top: 20px;
+    text-decoration: none;
+  }
+
+  /* Position and sizing of burger button */
+  .bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    right: 25px;
+    top: 25px;
+  }
+
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #373a47;
+  }
+
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: #a90000;
+  }
+
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #bdc3c7;
+  }
+
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+  }
+
+  /* General sidebar styles */
+  .bm-menu {
+    background: #373a47;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+  }
+
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+  }
+
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+  }
+
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media screen and (min-width: 326px) and (max-width: 426px) {
+  ul.nav-social {
+    position: absolute;
+    top: 28px;
+    left: 80px;
+    width: 70%;
+    margin: auto;
+  }
+
+  ul.nav-left {
+    left: -20px;
+  }
+
+  .nav-link { display: none; }
+
+  .nav-link-burger {
+    padding-top: 20px;
+    text-decoration: none;
+  }
+
+  /* Position and sizing of burger button */
+  .bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    right: 30px;
+    top: 25px;
+  }
+
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #373a47;
+  }
+
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: yellow;
+  }
+
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #bdc3c7;
+  }
+
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+  }
+
+  /* General sidebar styles */
+  .bm-menu {
+    background: #373a47;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+  }
+
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+  }
+
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+  }
+
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media screen and (min-width: 427px) and (max-width: 768px) {
+  .navbar {
+    width: 768px;
+  }
+
+  #fb {
+    bottom: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  #twitter {
+    bottom: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  #ig {
+    bottom: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .nav-left {
+    padding-left: 5px;
+  }
+
+  .nav-social {
+    right: 10px;
+  }
+
+  .bm-burger-button { display: none; }
+}
+
+@media screen and (min-width: 427px) and (max-width: 768px) {
+  #fb {
+    bottom: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  #twitter {
+    bottom: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  #ig {
+    bottom: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .nav-left {
+    padding-left: 5px;
+  }
+
+  .nav-social {
+    right: 10px;
+  }
+
+  .navbar {
+    width: 768px;
+  }
+
+  .bm-burger-button { display: none; }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1025px) {
+  .navbar {
+    width: 1024px;
+  }
+
+  .nav-social {
+    right: 40px;
+  }
+
+  .bm-burger-button { display: none; }
+}
+
+@media screen and (min-width: 1026px) and (max-width: 2561px) {
+  .bm-burger-button {display: none; }
+}
