@@ -14,14 +14,11 @@ const Faq = props => {
       </div>
       <h3 className="sub-header question neon-white">When is it?</h3>
       <p className="answer">
-        Check-in will start at 10am on January 25, 2020, and the closing ceremony
-        will end at 2pm on January 26, 2020 (with a full 24 hours allotted for hacking
-        sandwiched between start and end). We will have the schedule available
-        when the event draws closer!
+        The date is TBD! Our team is working on securing a nice venue for the entire weekend.
       </p>
       <h3 className="sub-header question neon-white">Where is it?</h3>
       <p className="answer">
-        Fordham University School of Law 150 W 62nd St, New York, NY 10023
+        Fordham University
       </p>
       <h3 className="sub-header question neon-white">Does this cost money?</h3>
       <p className="answer">
@@ -72,6 +69,10 @@ const Faq = props => {
         encourages hacking for impact and our team chose these tracks because
         they each have plenty of problems to solve and things that can be
         improved upon!
+      </p>
+      <h3 className="sub-header question neon-white">Who made this wonderful website?</h3>
+      <p className="answer">
+        David (<a href="https://github.com/the4thdave">@the4thdave</a>) and <a href="https://hpdempsey.com/">Helen</a> (<a href="https://github.com/mintkey">@mintkey</a>) did! Please feel free to check them out on Github if you like their work!
       </p>
     </div>
   );

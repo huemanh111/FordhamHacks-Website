@@ -9,7 +9,7 @@ const Intro = props => {
     <div id="intro">
       <img id="logo" src={logo} alt="FordhamHacks logo" />
       <div className="text-container">
-        <h2 className="date neon-fuschia">January 25-26, 2020</h2>
+        <h2 className="date neon-fuschia">Date To Be Decided</h2>
         <h2 className="location neon-fuschia">
           Fordham University Lincoln Center
         </h2>

@@ -5,7 +5,7 @@ const Schedule = props => {
   return (
     <div id="schedule">
       <h1 className="header neon-green">Schedule</h1>
-      <p>January 25-26, 2020</p>
+      <p>Date TBD</p>
       <p>Check back for more info about the schedule.</p>
     </div>
   );
